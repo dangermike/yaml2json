@@ -6,9 +6,8 @@ import (
 
 	"log"
 
-	jsoniter "github.com/json-iterator/go"
-	// "gopkg.in/yaml.v2"
 	"github.com/goccy/go-yaml"
+	jsoniter "github.com/json-iterator/go"
 )
 
 func getSource() (io.Reader, error) {
